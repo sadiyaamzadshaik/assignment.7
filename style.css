@@ -1,0 +1,70 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  border-radius: 12px;
+  background-color: aquamarine;
+  width: 560px; 
+  height: 380px;
+}
+.h1{
+  font-weight: bolder;
+}
+.child1{
+  flex-grow: 1;
+  width: 70px;
+  height:90px ;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 12px; 
+}
+.child2{
+  flex-grow: 1;
+  width: 70px;
+  height:90px ;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 12px; 
+}
+.child3{
+  flex-grow: 1;
+  width: 70px;
+  height:90px ;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 12px; 
+}
+.food_card{
+  flex-grow: 1;
+  padding:10px ;
+  margin:10px ;
+  width:350px ;
+  background-color:white;
+  border-radius: 20px;
+
+}
+.box_img{
+  width:100% ;
+  border-radius: 20px;
+  border-radius: 2px solid tomato;
+}
+.btn{
+  font-weight: bolder;
+  padding: 15px 22px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(59, 194, 194);
+  color: black;
+  margin: 5px auto;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+.row1{
+  display: flex;
+
+}
